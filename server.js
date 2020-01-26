@@ -6,6 +6,6 @@ app.get('/', (req,res) => {
     res.json({"test": "success"})
 });
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log("listening...");
 })
